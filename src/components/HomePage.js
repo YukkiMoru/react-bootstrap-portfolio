@@ -2,18 +2,21 @@ import React from 'react'
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
+import profileImage from "../Images/PuffurFish/PF_NBG.png";
 
 const HomePage = () => {
   return (
     <div className="container text-center">
-    <h1>Shin Code</h1>
+    <h1>MORU</h1>
 
     <img src={profileImage} className="profileImage" />
 
     <p>
-      ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-      ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+      Moruといいます。普段はマインクラフトやThe Finalsなどをやっています。
+    最近はUnreal Engine 5やBlender、Atcoderも少しで遊んでいます。
+    </p>
+    <p>
+      このサイトは改善の余地がたくさんあると思います。だんだんと発展させていく予定です。
     </p>
 
     <section class="page-section" id="services">
