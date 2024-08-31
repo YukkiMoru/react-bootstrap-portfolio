@@ -1,7 +1,7 @@
 import React from 'react'
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
-import firebaseImage from "../Images/firebase.jpg";
+import UE5Image from "../Images/logos/Unreal_Engine_Logo.png";
 import profileImage from "../Images/PuffurFish/PF_NBG.png";
 
 const HomePage = () => {
@@ -27,25 +27,24 @@ const HomePage = () => {
             私が作った作品一覧です
           </h3>
         </div>
+
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">ECサイト</h4>
+            <h4 class="my-3">Tower_Defense</h4>
             <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
+              密かに人気を集めているシミュレーションゲームのジャンル。通称・TD系。 砲台を配置して、侵攻してくる敵の集団から本拠地を防衛する。
             </p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">レスポンシブサイト</h4>
+            <h4 class="my-3">WIP</h4>
             <p class="text-muted">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
               maxime quam architecto quo inventore harum ex magni, dicta
@@ -57,7 +56,7 @@ const HomePage = () => {
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">ウェブセキュリティ</h4>
+            <h4 class="my-3">WIP</h4>
             <p class="text-muted">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
               maxime quam architecto quo inventore harum ex magni, dicta
@@ -75,17 +74,17 @@ const HomePage = () => {
           <div class="col-md-4 services">
             <img src={reactImage} />
             <h4>React</h4>
-            <p>Reactがつかえます</p>
+            <p>Reactが少しつかえます</p>
           </div>
           <div class="col-md-4 services">
             <img src={jsImage} />
-            <h4>HTML/CSS</h4>
-            <p>HTML/CSSがつかえます</p>
+            <h4>HTML/JS/CSS</h4>
+            <p>HTML/JS/CSSがつかえます</p>
           </div>
           <div class="col-md-4 services">
-            <img src={firebaseImage} />
-            <h4>Firebase</h4>
-            <p>Firebaseがつかえます</p>
+            <img src={UE5Image} />
+            <h4>Unreal Engine 5</h4>
+            <p>Unreal Engine 5がつかえます</p>
           </div>
         </div>
         <button type="button" class="btn btn-primary">
