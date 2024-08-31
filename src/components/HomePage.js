@@ -1,6 +1,6 @@
 import React from 'react'
-import reactImage from "../Images/react.png";
-import jsImage from "../Images/js.png";
+import reactImage from "../Images/logos/react.png";
+import jsImage from "../Images/logos/js.png";
 import UE5Image from "../Images/logos/Unreal_Engine_Logo.png";
 import profileImage from "../Images/PuffurFish/PF_NBG.png";
 
