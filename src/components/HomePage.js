@@ -28,15 +28,16 @@ const HomePage = () => {
           </h3>
         </div>
 
+        {/* //https://fontawesome.com/icons */}
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-sharp fa-landmark fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="my-3">Tower_Defense</h4>
             <p class="text-muted">
-              密かに人気を集めているシミュレーションゲームのジャンル。通称・TD系。 砲台を配置して、侵攻してくる敵の集団から本拠地を防衛する。
+              通称・TD系。 砲台を配置して、侵攻してくる敵の集団から本拠地を防衛する。
             </p>
           </div>
           <div class="col-md-4">
