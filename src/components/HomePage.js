@@ -83,7 +83,7 @@ const HomePage = () => {
             <p>HTML/JS/CSSがつかえます</p>
           </div>
           <div class="col-md-4 services">
-            <img src={UE5Image} />
+          <img src={UE5Image} className="UE5-image" />
             <h4>Unreal Engine 5</h4>
             <p>Unreal Engine 5がつかえます</p>
           </div>
